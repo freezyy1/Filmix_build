@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Filmix" />
+	<title>Главная страница</title>
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/media-queries.css">
+
+	<!-- Slippry: A Free jQuery Responsive Slider Plugin for Modern Times -->
+	<link rel="stylesheet" href="../assets/css/slippry.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/bootstrap-theme.min.css.map">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css.map">
+
+	<!-- Include the CSS -->
+	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/preloader.min.js"></script>
+	<script src="../assets/js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="../assets/js/slippry.js"></script> <!-- slideshow -->
+	<script src="../assets/js/typed.js"></script> <!-- type ani -->
+
+
+	<!-- Custom components -->
+	<script src="../components/footer.js"></script>
+	<script src="../components/header.js"></script>
+	<script src="../scrypts/check.js"></script>
+
+</head>
+<body>
+
+	<!--- - - - - - - - Start Menubar - - - - - -->
+	<div class="main">
+		<div id="header"></div>
+		<!--- - - - - - - - Start sidebar - - - - - -->
+		<div class="site_content">
+			<div class="sidebar_container">
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search_form" >
+						<input type="search" name="search_field" placeholder="Ваш запрос" />
+						<input type="submit" class="btn" value="Найти" />
+					</form>
+				</div>
+				<div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>30.09.2023</span>
+                    <p>Запустил серверную часть</p>
+                    <a href="#">Читать</a>
+                </div>
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
+					<ul>
+						<li><a href="./films/interstellar.html">Интерстеллар</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="./films/matrix.html">Матрица</a><span class="rating_sidebar">8.3</span></li>
+						<li><a href="./films/mad_max.html">Безумный макс</a><span class="rating_sidebar">7.6</span></li>
+						<li><a href="./films/cloud_atlas.html">Облачный атлас</a><span class="rating_sidebar">7.8</span></li>
+					</ul>
+				</div>
+				<div class="sidebar_button">
+					<a href="#"></a>
+				</div>
+			</div>
+			<!--- - - - - - - - Start main content - - - - - -->
+			<div class="content">
+				<h1>Новые фильмы</h1>
+				<div class="films_block">
+					<a href="./films/matrix.html"><img src="../assets/img/matrix.png"></a>
+					<a href="./films/mad_max.html"><img src="../assets/img/max.png"></a>
+					<a href="./films/interstellar.html"><img src="../assets/img/inter.png"></a>
+					<a href="./films/cloud_atlas.html"><img src="../assets/img/cloud.png"></a>
+				</div>
+				<h1>Новые сериалы</h1>
+				<div class="films_block">
+					<a href="./serials/walking_dead.html"><img src="../assets/img/dead.png"></a>
+					<a href="./serials/silicon_valley.html"><img src="../assets/img/silicon.png"></a>
+					<a href="./serials/breaking_bad.html"><img src="../assets/img/breakingbad.png"></a>
+					<a href="./serials/fles.html"><img src="../assets/img/xfiles.png"></a>
+				</div>
+				<div class="posts">
+					<hr>
+					<h2> <a href="./films/interstellar.html">Как снимали Интерстеллар</a> </h2>
+					<div class="posts_content">
+						<p>
+							45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера, студия Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.
+						</p>
+					</div>
+					<p><strong><a href="./films/interstellar.html">Читать</a></strong></p>
+					<hr>
+
+				</div>
+			</div>
+		</div>
+		<!--- - - - - - - - Start footer - - - - - -->
+		<div id="footer"></div>
+	</div>
+
+
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/scrollReveal.min.js"></script>
+	<script src="../assets/js/parallax.js" defer></script>
+</body>
+</html>
